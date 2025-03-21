@@ -1,0 +1,11 @@
+{
+    "name": "TemplatedPack",
+    "version": "1.2.0",
+    "displayName": "Templated Pack",
+    "tags": {
+        "streamtags": []
+    },
+    "dependencies": {
+        "cribl": "*"
+    }
+}

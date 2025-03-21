@@ -1,0 +1,28 @@
+outputs:
+  tjo1:
+    systemFields:
+      - cribl_pipe
+    streamtags: []
+    loadBalanced: true
+    compression: none
+    logFailedRequests: false
+    throttleRatePerSec: "0"
+    tls:
+      disabled: true
+    connectionTimeout: 10000
+    writeTimeout: 60000
+    tokenTTLMinutes: 60
+    sendHeader: true
+    onBackpressure: block
+    authType: manual
+    excludeSelf: false
+    hosts:
+      - tls: off
+        weight: 1
+        host: 127.0.0.1
+        port: 1213
+    dnsResolvePeriodSec: 600
+    loadBalanceStatsPeriodSec: 300
+    maxConcurrentSenders: 0
+    authToken: changeme
+    type: tcpjson

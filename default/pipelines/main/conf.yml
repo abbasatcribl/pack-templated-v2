@@ -1,0 +1,31 @@
+functions:
+  - id: eval
+    filter: "true"
+    disabled: false
+    conf:
+      add:
+        - name: cribl
+          value: "'yes'"
+      remove: []
+  - id: redis
+    filter: "true"
+    disabled: null
+    conf:
+      commands:
+        - command: get
+          keyExpr: '"abc"'
+      deploymentType: standalone
+      authType: credentialsSecret
+      maxBlockSecs: 60
+      tlsOptions:
+        rejectUnauthorized: true
+        certificateName: redis_cert
+        caPath: $CRIBL_HOME/local/cribl/auth/certs/redis_cert.pem
+        certPath: $CRIBL_HOME/local/cribl/auth/certs/redis_cert.crt
+        privKeyPath: $CRIBL_HOME/local/cribl/auth/certs/redis_cert.key
+        passphrase: changeme
+      __template_url: cribl:REDIS_URL
+      url: '"redis://myredis:6379"'
+      credentialsSecret: redis_secret_credentials
+    description: abc
+groups: {}
