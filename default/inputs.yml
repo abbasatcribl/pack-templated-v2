@@ -14,7 +14,8 @@ inputs:
     socketMaxLifespan: 0
     enableProxyHeader: false
     enableLoadBalancing: false
-    authType: manual
+    authType: secret
     authToken: changeme
     type: tcpjson
     port: 1212
+    textSecret: ti1_tcpjson_secret_text
