@@ -3,7 +3,8 @@ inputs:
     disabled: false
     sendToRoutes: true
     pqEnabled: false
-    streamtags: []
+    streamtags:
+      - "123"
     host: 0.0.0.0
     tls:
       disabled: true
@@ -19,3 +20,6 @@ inputs:
     type: tcpjson
     port: 1212
     textSecret: ti1_tcpjson_secret_text
+    __secretMeta:
+      - t: authToken
+        v: ""

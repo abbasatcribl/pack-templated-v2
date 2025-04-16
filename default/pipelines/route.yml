@@ -7,9 +7,9 @@ routes:
     final: true
     disabled: false
     pipeline: main
-    description: ""
+    description: This is a great route!
     enableOutputExpression: false
     outputExpression: null
-    filter: "true"
+    filter: 2 == 2
     clones: []
     output: tjo1
