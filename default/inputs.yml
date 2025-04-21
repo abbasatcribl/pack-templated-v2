@@ -18,8 +18,5 @@ inputs:
     authType: secret
     authToken: changeme
     type: tcpjson
-    port: 1212
+    port: 1313
     textSecret: ti1_tcpjson_secret_text
-    __secretMeta:
-      - t: authToken
-        v: ""
