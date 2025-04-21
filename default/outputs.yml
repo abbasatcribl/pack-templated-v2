@@ -20,7 +20,7 @@ outputs:
       - tls: off
         weight: 1
         host: 127.0.0.1
-        port: 1213
+        port: 1314
     dnsResolvePeriodSec: 600
     loadBalanceStatsPeriodSec: 300
     maxConcurrentSenders: 0
