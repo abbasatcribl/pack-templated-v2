@@ -1,1 +1,1 @@
-{"name":"TemplatedPack","version":"1.4.0","displayName":"Templated Pack","tags":{"streamtags":[]},"exports":["*"],"dependencies":{"cribl":"*"},"minLogStreamVersion":"4.11.0"}
+{"name":"TemplatedPack","version":"1.5.0","displayName":"Templated Pack","tags":{"streamtags":[]},"exports":["*"],"dependencies":{"cribl":"*"},"minLogStreamVersion":"4.11.0"}

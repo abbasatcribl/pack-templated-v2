@@ -1,0 +1,4 @@
+MY_TCP_PORT:
+  type: number
+  value: 1212
+  lib: custom
