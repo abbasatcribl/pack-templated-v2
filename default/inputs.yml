@@ -19,6 +19,7 @@ inputs:
     authToken: changeme
     type: tcpjson
     port: 1212
+    __template_port: cribl.PACK_TCP_PORT
     textSecret: ti1_tcpjson_secret_text
     __secretMeta:
       - t: authToken
